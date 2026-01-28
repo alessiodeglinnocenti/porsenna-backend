@@ -1,0 +1,16 @@
+{
+  "name": "porsenna-backend",
+  "version": "1.0.0",
+  "description": "Secure backend for Porsenna AI chatbot",
+  "main": "api/chat.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
